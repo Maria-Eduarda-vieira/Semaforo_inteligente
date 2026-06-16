@@ -5,7 +5,7 @@
 
 ### Trabalho de Conclusão do 1º Semestre - SENAI "A. Jacob Lafer"
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Integrantes+do+time+Scrum:;Ana+Júlia+Valentim+de+Maria;Gustavo+Schimming;Maria+Eduarda+Vieira;Maria+Eduarda+Vilela+de+Brito;Victor+Hugo+Frank+Voltareli)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Projeto+de+semáforo+inteligente+que+prioriza+ambulâncias)](https://git.io/typing-svg)
 
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 ![Arduino](https://img.shields.io/badge/Arduino-UNO-blue)
