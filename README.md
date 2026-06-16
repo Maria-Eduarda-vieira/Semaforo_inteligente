@@ -18,24 +18,7 @@
 
 ---
 
-##  Sumário
 
-* [Sobre o Projeto](#-sobre-o-projeto)
-* [Objetivo](#-objetivo)
-* [Problematização](#-problematização)
-* [Sprint 1](#-sprint-1---planejamento-e-pesquisa)
-* [Sprint 2](#-sprint-2---desenvolvimento-e-implementação)
-* [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-* [Hardware Utilizado](#-hardware-utilizado)
-* [Software Utilizado](#-software-utilizado)
-* [Metodologia Scrum](#-metodologia-scrum)
-* [Fluxo de Funcionamento](#-fluxo-de-funcionamento)
-* [Código do Projeto](#-código-do-projeto)
-* [Resultados Obtidos](#-resultados-obtidos)
-* [Integrantes](#-integrantes)
-* [Conclusão](#-conclusão)
-
----
 
 # **Sobre o Projeto**
 
