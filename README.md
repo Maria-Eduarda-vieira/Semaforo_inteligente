@@ -239,26 +239,26 @@ Para a confeccção da maquete, utilizamos alguns materiais, segue a lista deles
 
 ---
 
-#**Requisitos funcionais**:
- Detectação de ambulâncias através do sensor ultrassônico HC-SR04
- Identificação de ambulâncias em uma distância de 30 cm do semáforo 
- Liberação automática para ambulâncias (sinal verde)
- Fechar via oposta (sinal vermelho)
- Controle de vias e sinal de pedestre de acordo com o estado do
+**Requisitos funcionais**:
+* Detectação de ambulâncias através do sensor ultrassônico HC-SR04
+* Identificação de ambulâncias em uma distância de 30 cm do semáforo 
+*Liberação automática para ambulâncias (sinal verde)
+* Fechar via oposta (sinal vermelho)
+*Controle de vias e sinal de pedestre de acordo com o estado do
 semáforo 
- Dar continuidade ao funcionamento normal após a passagem da
+*Dar continuidade ao funcionamento normal após a passagem da
 ambulância 
- Emissão de sinais através de LEDS que representam o semáforo 
+*Emissão de sinais através de LEDS que representam o semáforo 
 
-#**Requisitos não funcionais**:
- Rápida resposta após identificação de ambulâncias 
- Apresentação de sistema contínuo e estável 
- Baixo custo e utilização de componentes simples
- Utilização da linguagem C++
- Fácil manuseio de código 
- Estrutura de fluxograma 
- Evitação de falhas no controle do trânsito 
- Priorização de segurança nas vias durante o seu funcionamento
+**Requisitos não funcionais**:
+* Rápida resposta após identificação de ambulâncias 
+* Apresentação de sistema contínuo e estável 
+* Baixo custo e utilização de componentes simples
+* Utilização da linguagem C++
+* Fácil manuseio de código 
+* Estrutura de fluxograma 
+* Evitação de falhas no controle do trânsito 
+* Priorização de segurança nas vias durante o seu funcionamento
 
 ---
 <h1 align="center">
