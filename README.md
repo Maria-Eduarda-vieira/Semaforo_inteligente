@@ -71,7 +71,7 @@ Função | Integrante |
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 📌 Sprint 1 - Planejamento e Pesquisa
+#  Sprint 1 - Planejamento e Pesquisa
 
 ## Objetivos da Sprint
 
