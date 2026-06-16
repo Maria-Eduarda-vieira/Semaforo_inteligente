@@ -178,7 +178,8 @@ A partir do desenvolvimento do projeto, foi possível analisar todos os componen
 | 5W2H        | Planejamento        |
 
 
-### 🏗️ Construção da Maquete
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Construção+da+maquete)](https://git.io/typing-svg)
+
 
 Nós fizemos uma representação física do cruzamento da Avenida Santos Dummont, contendo:
 
@@ -190,96 +191,23 @@ Nós fizemos uma representação física do cruzamento da Avenida Santos Dummont
 * Construções urbanas.
 
 Para a confeccção da maquete, utilizamos alguns materiais, segue a lista deles abaixo:
-🛠️ Material
+| Materiais      | Quantidade       |
+| -----------    | ------------------- |
+| Isopor         | 1                   |
+| EVA            | 6                   |
+| Cola quente    | 4                   |
+|Cola  isopor    | 1                   |
+|Palito Sorvete  | 1                   |
+|Tinta Guache    | 1                   |
+| Papel Crepom   | 1                   |
+|Planta Falsa    | 10                  |
+| Caixas de Leite| 2                   |
+| Caixas perfume | 3                   |
+| Canudos        | 6                   |        |
+| Pisca pisca    | 1                   |
+| Fita crepe     | 1                   |
+| Pinceís        | 2                   |
 
-🔢 Quantidade
-
-📌 Finalidade Estimada
-
-Placa de Isopor
-
-1
-
-Base estrutural principal da maquete
-
-Folhas de EVA
-
-6
-
-Revestimento das ruas, calçadas e detalhes
-
-Bastões de Cola Quente
-
-4
-
-Fixação rápida de estruturas pesadas e plásticos
-
-Tubo de Cola de Isopor
-
-1
-
-Colagem das placas de base sem danificar o material
-
-Pacote de Palito de Sorvete
-
-1
-
-Estruturação de cercas, suportes e detalhes de madeira
-
-Caixinha de Tinta Guache
-
-1
-
-Pintura e acabamento das vias e prédios
-
-Papel Crepom Marrom
-
-1
-
-Texturização de áreas verdes, canteiros ou terra
-
-Plantas Artificiais
-
-10
-
-Decoração e paisagismo urbano (árvores e arbustos)
-
-Caixas de Leite
-
-2
-
-Estruturação de prédios comerciais ou edifícios altos
-
-Caixas de Perfume
-
-3
-
-Estruturação de casas, hospitais ou pequenos comércios
-
-Pacote de Canudos
-
-1
-
-Postes de iluminação e suporte para os semáforos
-
-Pisca-pisca
-
-1
-
-Representação das luzes da cidade ou dos semáforos
-
-Rolo de Fita Crepe
-
-1
-
-Marcação temporária de vias e fixação durante a secagem
-
-Pinceis
-
-2
-
-Aplicação de tinta e espalhamento de colas
----
 
 
 ---
@@ -309,6 +237,27 @@ Aplicação de tinta e espalhamento de colas
 
 ---
 
+#**Requisitos funcionais**:
+ Detectação de ambulâncias através do sensor ultrassônico HC-SR04
+ Identificação de ambulâncias em uma distância de 30 cm do semáforo 
+ Liberação automática para ambulâncias (sinal verde)
+ Fechar via oposta (sinal vermelho)
+ Controle de vias e sinal de pedestre de acordo com o estado do
+semáforo 
+ Dar continuidade ao funcionamento normal após a passagem da
+ambulância 
+ Emissão de sinais através de LEDS que representam o semáforo 
+
+#**Requisitos não funcionais**:
+ Rápida resposta após identificação de ambulâncias 
+ Apresentação de sistema contínuo e estável 
+ Baixo custo e utilização de componentes simples
+ Utilização da linguagem C++
+ Fácil manuseio de código 
+ Estrutura de fluxograma 
+ Evitação de falhas no controle do trânsito 
+ Priorização de segurança nas vias durante o seu funcionamento
+
 ---
 <h1 align="center">
   <span style="font-family: 'Arial Black', sans-serif; font-size: 3em; color: #0040FF; font-weight: 900; display: block; border-bottom: 8px solid #0040FF; padding-bottom: 10px;">
@@ -321,15 +270,10 @@ O projeto demonstrou como tecnologias embarcadas podem ser utilizadas para soluc
 Além do desenvolvimento técnico envolvendo Arduino, sensores e programação em C++, a atividade permitiu aplicar conceitos de:
 
 * Gestão de Projetos,
--------------------------
 * Metodologia Scrum,
----------------------------
 * Documentação Técnica,
----------------------------
 * Desenvolvimento de Sistemas,
------------------------------
 *Lógica de programação.
---------------------------------
 
 O protótipo desenvolvido comprova a viabilidade da utilização de semáforos inteligentes para auxiliar veículos de emergência e contribuir para uma mobilidade urbana mais eficiente.
 
