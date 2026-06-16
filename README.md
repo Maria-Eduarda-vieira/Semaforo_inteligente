@@ -68,7 +68,8 @@ Função | Integrante |
 * Planejamentos e justificativas (5W2H)
 * Definição dos requisitos
 
-## Principais Resultados
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=ANÁLISES+PRINCIPAIS)](https://git.io/typing-svg)
+
 
 A partir da análise de um sistema internacional de prioridade semafórica para transporte público baseado em GPS e comunicações sem fio, surgiu a ideia de criar um sistema de prioridade 
 para os veículos ambulatórios. Em um segundo projeto, tivemos como ideia a instalação de outro semáforo inteligente mas que priorizasse pedestres. No entanto, essa ideia foi descartada
@@ -94,15 +95,15 @@ Durante a Sprint 1 foram produzidos:
 | Cronograma           | ✅      |
 | Slides               | ✅      |
 
----
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-# Sprint 2 - Desenvolvimento e Implementação
+<h1 align="center">
+  <span style="font-family: 'Arial Black', sans-serif; font-size: 3em; color: #0040FF; font-weight: 900; display: block; border-bottom: 8px solid #0040FF; padding-bottom: 10px;">
+    SPRINT 2-DESENVOLVIMENTO E IMPLEMENTAÇÃO
+  </span>
+</h1>
 
-Após as análises realizadas na Sprint 1, o projeto passou por melhorias.
-
-## Alteração Principal
-
-A ideia inicial foi substituída pela utilização do:
+Após as análises realizadas na Sprint 1, o projeto passou por algumas melhorias. A ideia dos pedestres foi substituída pela utilização do:
 
 ### Sensor Ultrassônico HC-SR04
 
@@ -110,17 +111,28 @@ Responsável por detectar a aproximação da ambulância e acionar o sistema aut
 
 ---
 
-## Atividades Desenvolvidas
 
-### 🔧 Desenvolvimento do Circuito
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=ATIVIDADES+DESENVOLVIDAS)](https://git.io/typing-svg)
+###  Desenvolvimento do Circuito
 
-Montagem virtual utilizando:
+Fizemos uma montagem virtual no ambiente virtual Tinkercad utilizando alguns componentes de Hardware, sendo eles:
 
-* Arduino UNO;
-* LEDs;
-* Resistores;
-* Protoboard;
-* Sensor HC-SR04.
+| Componentes                 | Quantidades
+| --------------------------- |---------------- |
+| Placa Arduino UNO R3        |  1              |
+| Sensor Ultrassônico HC-SR04 |  1              |
+| LEDs Vermelhos              |  2              |
+| LEDs Amarelos               |  2              |
+| LEDs Verdes                 |  2              |
+| Resistores                  |  7              |
+| Protoboard                  |  1              |
+| Jumpers Macho-Macho         |  7              |
+| Jumpers Macho-Fêmea         |  7              |
+| Jumpers Fêmea-Fêmea         |  7              |
+| Cabo USB                    |  1              |
+| Computadores                |  5              |
+
+ 
 
 ### 💻 Desenvolvimento do Código
 
