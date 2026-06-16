@@ -63,37 +63,37 @@ Utilizamos a metodologia SCRUM como principal para o desenvolvimento de nossos p
 
 Função | Integrante |
 | :--- | :--- |
-| 👑 <span style="color:#FF2E93">**Product Owner**</span> | Maria Eduarda Vieira |
-| 🛠 <span style="color:#A020F0">**Scrum Master**</span> | Ana Júlia Valentim de Maria |
-| 💻 <span style="color:#007BFF">**Dev**</span> | Maria Eduarda Vilela de Brito |
-| 💻 <span style="color:#007BFF">**Dev**</span> | Victor Hugo Franck Voltarelli |
-| 💻 <span style="color:#007BFF">**Dev**</span> | Gustavo Schimming |
+|  <span style="color:#FF2E93">**Product Owner**</span> | Maria Eduarda Vieira |
+|  <span style="color:#A020F0">**Scrum Master**</span> | Ana Júlia Valentim de Maria |
+|  <span style="color:#007BFF">**Dev**</span> | Maria Eduarda Vilela de Brito |
+|  <span style="color:#007BFF">**Dev**</span> | Victor Hugo Franck Voltarelli |
+|  <span style="color:#007BFF">**Dev**</span> | Gustavo Schimming |
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#  Sprint 1 - Planejamento e Pesquisa
+#  <h3>
+  <span style="font-family: 'Arial Black', sans-serif; color: #0040FF;">
+    Sprint 1 - Planejamento e Resultados
+  </span>
+</h3>
 
 ## Objetivos da Sprint
 
-* Levantamento do problema;
-* Pesquisa de soluções existentes;
-* Desenvolvimento da ideia inicial;
-* Planejamento estratégico;
-* Definição dos requisitos.
+* Início e desenvolvimento das ideias
+* ------------------------------------
+* Pesquisa de soluções existentes,
+* -----------------------------------
+* Planejamentos e justificativas (5W2H)
+* -----------------------------------
+* Definição dos requisitos
 
-## Principais Atividades
+## Principais Resultados
 
-### 🔍 Pesquisa de Referência
+A partir da análise de um sistema internacional de prioridade semafórica para transporte público baseado em GPS e comunicações sem fio, surgiu a ideia de criar um sistema de prioridade 
+para os veículos ambulatórios. Em um segundo projeto, tivemos como ideia a instalação de outro semáforo inteligente mas que priorizasse pedestres. No entanto, essa ideia foi descartada
+na Sprint 2.
 
-Foi estudado um sistema internacional de prioridade semafórica para transporte público baseado em:
-
-* GPS;
-* Comunicação sem fio;
-* Sensores de detecção.
-
-A partir dessa análise, surgiu a proposta de criar um sistema voltado especificamente para ambulâncias.
-
-### 📊 Planejamento
+### Planejamento
 
 Durante a Sprint 1 foram produzidos:
 
@@ -101,9 +101,9 @@ Durante a Sprint 1 foram produzidos:
 * Planejamento 5W2H;
 * Cronograma;
 * Definição de papéis Scrum;
-* Pesquisa bibliográfica.
+* Slides explicativos
 
-### 📈 Entregas da Sprint 1
+### Entregas da Sprint 1
 
 | Entrega              | Status |
 | -------------------- | ------ |
@@ -111,7 +111,7 @@ Durante a Sprint 1 foram produzidos:
 | Documentação inicial | ✅      |
 | 5W2H                 | ✅      |
 | Cronograma           | ✅      |
-| Definição da solução | ✅      |
+| Slides               | ✅      |
 
 ---
 
