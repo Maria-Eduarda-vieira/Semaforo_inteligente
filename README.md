@@ -144,7 +144,9 @@ https://github.com/Maria-Eduarda-vieira/Semaforo_inteligente/blob/main/Sprint%20
 Antes do desenvolvimento do código, o grupo realizou a produção do fluxograma no software **Flowgorithm**. Depois disso, programamos o código na linguagem C++
 no Tinkercad para finalizar no software Arduino IDE.
 
-Segue abaixo o código do projeto:
+**Segue abaixo o link do código do projeto**:
+
+https://github.com/Maria-Eduarda-vieira/Semaforo_inteligente/tree/main/Sprint%202/codigoarduino
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ---
 
