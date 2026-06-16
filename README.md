@@ -277,7 +277,8 @@ void loop() {
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=0040FF&width=450&height=60&lines=Softwares+Utilizados)](https://git.io/typing-svg)
+
+ #**Softwares Utilizados**
 A partir do desenvolvimento do projeto, foi possível analisar todos os componentes não físicos de software que foram utilizados para o resultado final.
 
 | Software        | Utilização            |
@@ -304,142 +305,156 @@ A partir do desenvolvimento do projeto, foi possível analisar todos os componen
 
 ### 🏗️ Construção da Maquete
 
-Representação física do cruzamento contendo:
+Nós fizemos uma representação física do cruzamento da Avenida Santos Dummont, contendo:
 
-* Hospital;
+*Parque;
 * Vias urbanas;
 * Ambulância;
 * Semáforos;
 * Área verde;
 * Construções urbanas.
 
+Para a confeccção da maquete, utilizamos alguns materiais, segue a lista deles abaixo:
+🛠️ Material
+
+🔢 Quantidade
+
+📌 Finalidade Estimada
+
+Placa de Isopor
+
+1
+
+Base estrutural principal da maquete
+
+Folhas de EVA
+
+6
+
+Revestimento das ruas, calçadas e detalhes
+
+Bastões de Cola Quente
+
+4
+
+Fixação rápida de estruturas pesadas e plásticos
+
+Tubo de Cola de Isopor
+
+1
+
+Colagem das placas de base sem danificar o material
+
+Pacote de Palito de Sorvete
+
+1
+
+Estruturação de cercas, suportes e detalhes de madeira
+
+Caixinha de Tinta Guache
+
+1
+
+Pintura e acabamento das vias e prédios
+
+Papel Crepom Marrom
+
+1
+
+Texturização de áreas verdes, canteiros ou terra
+
+Plantas Artificiais
+
+10
+
+Decoração e paisagismo urbano (árvores e arbustos)
+
+Caixas de Leite
+
+2
+
+Estruturação de prédios comerciais ou edifícios altos
+
+Caixas de Perfume
+
+3
+
+Estruturação de casas, hospitais ou pequenos comércios
+
+Pacote de Canudos
+
+1
+
+Postes de iluminação e suporte para os semáforos
+
+Pisca-pisca
+
+1
+
+Representação das luzes da cidade ou dos semáforos
+
+Rolo de Fita Crepe
+
+1
+
+Marcação temporária de vias e fixação durante a secagem
+
+Pinceis
+
+2
+
+Aplicação de tinta e espalhamento de colas
 ---
 
-# 🛠 Tecnologias Utilizadas
-
-| Tecnologia  | Finalidade          |
-| ----------- | ------------------- |
-| Arduino UNO | Controle do sistema |
-| C++         | Programação         |
-| Arduino IDE | Desenvolvimento     |
-| Tinkercad   | Simulação           |
-| GitHub      | Versionamento       |
-| SCRUM       | Gestão do projeto   |
-| 5W2H        | Planejamento        |
-
----
 
 ---
 
 
 
 
----
 
-# 🔄 Fluxo de Funcionamento
 
-```text
-Início
 
-↓
-Sensor monitora a via
 
-↓
-Ambulância detectada?
+#  Resultados Obtidos
 
-├── Não
-│
-└── Sim
-      ↓
-Fechar semáforo da via cruzada
+✅ Desenvolvimento completo da documentação,
 
-↓
-Abrir semáforo da ambulância
+✅ Aplicação da metodologia SCRUM,
 
-↓
-Permitir passagem
+✅ Simulação funcional no Tinkercad,
 
-↓
-Tempo finalizado?
+✅ Construção da maquete física,
 
-├── Não
-│
-└── Sim
-      ↓
-Retornar ao ciclo normal
+✅ Desenvolvimento do circuito eletrônico,
 
-↓
-Fim
-```
-
----
-
-# 💻 Código do Projeto
-
-```cpp
-// Exemplo simplificado da lógica principal
-
-if (distancia <= 30) {
-
-  // Ambulância detectada
-
-  digitalWrite(verdeVia1, HIGH);
-
-  digitalWrite(vermelhoVia2, HIGH);
-
-}
-else {
-
-  // Funcionamento normal
-
-  cicloSemaforo();
-
-}
-```
-
----
-
-# 📊 Resultados Obtidos
-
-✅ Desenvolvimento completo da documentação;
-
-✅ Aplicação da metodologia SCRUM;
-
-✅ Simulação funcional no Tinkercad;
-
-✅ Construção da maquete física;
-
-✅ Desenvolvimento do circuito eletrônico;
-
-✅ Implementação da lógica de prioridade para ambulâncias;
+✅ Implementação da lógica de prioridade para ambulâncias,
 
 ✅ Apresentação final do projeto.
 
 ---
 
-# 👥 Integrantes
-
-| Integrante                    |
-| ----------------------------- |
-| Ana Júlia Valentim de Maria   |
-| Gustavo Schimming             |
-| Maria Eduarda Vieira          |
-| Maria Eduarda Vilela de Brito |
-| Victor Hugo Franck Voltarelli |
-
 ---
+<h1 align="center">
+  <span style="font-family: 'Arial Black', sans-serif; font-size: 3em; color: #0040FF; font-weight: 900; display: block; border-bottom: 8px solid #0040FF; padding-bottom: 10px;">
+    CONCLUSÃO
+  </span>
+</h1>
 
-# 🎓 Conclusão
 
 O projeto demonstrou como tecnologias embarcadas podem ser utilizadas para solucionar problemas reais da sociedade.
-
 Além do desenvolvimento técnico envolvendo Arduino, sensores e programação em C++, a atividade permitiu aplicar conceitos de:
 
-* Gestão de Projetos;
-* Metodologia Scrum;
-* Trabalho em Equipe;
-* Documentação Técnica;
-* Desenvolvimento de Sistemas.
+* Gestão de Projetos,
+-------------------------
+* Metodologia Scrum,
+---------------------------
+* Documentação Técnica,
+---------------------------
+* Desenvolvimento de Sistemas,
+-----------------------------
+*Lógica de programação.
+--------------------------------
 
 O protótipo desenvolvido comprova a viabilidade da utilização de semáforos inteligentes para auxiliar veículos de emergência e contribuir para uma mobilidade urbana mais eficiente.
 
