@@ -132,7 +132,8 @@ Fizemos uma montagem virtual no ambiente virtual Tinkercad utilizando alguns com
 | Cabo USB                    |  1              |
 | Computadores                |  5              |
 
- 
+Link dos vídeos da montagem no Tinkercad:
+ https://github.com/Maria-Eduarda-vieira/Semaforo_inteligente/blob/main/Sprint%202/VideoTinkerCad.mp4
 
 ### 💻 Desenvolvimento do Código
 
