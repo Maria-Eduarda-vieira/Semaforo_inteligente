@@ -12,7 +12,7 @@
 ![Linguagem](https://img.shields.io/badge/C%2B%2B-Arduino%20IDE-orange)
 ![Metodologia](https://img.shields.io/badge/Metodologia-SCRUM-red)
 
-**Desenvolvido pela empresa MindTech**
+### Desenvolvido pela empresa <span style="color:#007BFF">MindTech</span>
 
 </div>
 
@@ -37,39 +37,39 @@
 
 ---
 
-# 🚦 **Sobre o Projeto**
+# **Sobre o Projeto**
 
-O projeto consiste no desenvolvimento de um semáforo Inteligente capaz de priorizar a passagem de ambulâncias em situações de emergência, reduzindo o tempo de deslocamento até hospitais e contribuindo para a melhoria da mobilidade urbana e 
+A empresa ABC Technology contratou a nossa empresa (<span style="color:#007BFF">MindTech</span> ), para desenvolver sistemas de semáforos inteligentes e melhorar a mobilidade urbana, propondo alternativas para diminuir o engarrafamento e congestionamento das metrópoles. Com base nisso, criamos um  projeto que consiste no desenvolvimento de um semáforo Inteligente capaz de priorizar a passagem de ambulâncias em situações de emergência, reduzindo o tempo de deslocamento até hospitais e contribuindo para a movimentação nas cidades.
+# Objetivos principais 
 
-A proposta foi desenvolvida utilizando **Arduino UNO**, sensores eletrônicos e a metodologia ágil **SCRUM**, simulando uma aplicação real em um cruzamento urbano.
+Aqui vai uma breve lista das principais finalidades da escolha desse projeto:
 
----
+✅ Detectar a aproximação de ambulâncias.                                 
+-----------------------------------------------------                     
+✅ Alterar automaticamente o estado dos semáforos.                       
+------------------------------------------------------                    
+✅ Liberar a via para passagem prioritária.
+-------------------------------------------------------
+✅ Reduzir atrasos no atendimento médico emergencial e auxiliar na hora de ouro.
+-----------------------------------------------------------------------------------
+✅ Iniciar um plano de ação urbano na cidade de Santo André, São Paulo.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 🎯 Objetivo
+# **Sobre a nossa empresa**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=MindTech)](https://git.io/typing-svg)
 
-Desenvolver um sistema capaz de:
+A (<span style="color:#007BFF">MindTech</span> ) é uma empresa de desenvolvimento que visa a solução de problemas urbanos utilizando da tecnologia para isso.
+Utilizamos a metodologia SCRUM como principal para o desenvolvimento de nossos projetos, principalmente na divisão de tarefas. Segue abaixo todos os integrantes:
 
-✅ Detectar a aproximação de ambulâncias;
+Função | Integrante |
+| :--- | :--- |
+| 👑 <span style="color:#FF2E93">**Product Owner**</span> | Maria Eduarda Vieira |
+| 🛠 <span style="color:#A020F0">**Scrum Master**</span> | Ana Júlia Valentim de Maria |
+| 💻 <span style="color:#007BFF">**Dev**</span> | Maria Eduarda Vilela de Brito |
+| 💻 <span style="color:#007BFF">**Dev**</span> | Victor Hugo Franck Voltarelli |
+| 💻 <span style="color:#007BFF">**Dev**</span> | Gustavo Schimming |
 
-✅ Alterar automaticamente o estado dos semáforos;
-
-✅ Liberar a via para passagem prioritária;
-
-✅ Reduzir atrasos no atendimento médico emergencial;
-
-✅ Demonstrar a aplicação de sistemas embarcados em problemas reais.
-
----
-
-# ⚠️ Problematização
-
-O trânsito intenso da Região Metropolitana de São Paulo impacta diretamente o deslocamento de veículos de emergência.
-
-A demora na chegada de ambulâncias pode comprometer atendimentos críticos, principalmente considerando o conceito da **"Hora de Ouro"**, período considerado fundamental para o salvamento de vidas após acidentes ou emergências médicas.
-
-Diante desse cenário, surgiu a proposta do desenvolvimento de um sistema inteligente de controle semafórico.
-
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 📌 Sprint 1 - Planejamento e Pesquisa
 
