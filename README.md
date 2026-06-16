@@ -54,18 +54,14 @@ Função | Integrante |
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<span style="font-family: 'Arial Black', sans-serif; font-size: 3em; color: #0040FF; font-weight: 900; display: block; border-bottom: 8px solid #0040FF; padding-bottom: 10px;">
+<h1 align="center">
+  <span style="font-family: 'Arial Black', sans-serif; font-size: 3em; color: #0040FF; font-weight: 900; display: block; border-bottom: 8px solid #0040FF; padding-bottom: 10px;">
     SPRINT 1 - PLANEJAMENTO E PESQUISA
   </span>
 </h1>
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0040FF&center=true&vCenter=true&width=600&height=50&lines=Projeto+de+semáforo+inteligente+que+prioriza+ambulâncias" alt="Typing SVG" />
-  </a>
-</p>
+ [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=OBJETIVOS+DO+PROJETO)](https://git.io/typing-svg)
 
-## Objetivos da Sprint
 
 * Início e desenvolvimento das ideias
 * Pesquisa de soluções existentes,
