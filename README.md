@@ -80,11 +80,8 @@ Função | Integrante |
 ## Objetivos da Sprint
 
 * Início e desenvolvimento das ideias
-* ------------------------------------
 * Pesquisa de soluções existentes,
-* -----------------------------------
 * Planejamentos e justificativas (5W2H)
-* -----------------------------------
 * Definição dos requisitos
 
 ## Principais Resultados
