@@ -139,26 +139,22 @@ Link dos vídeos da montagem no Tinkercad:
 https://github.com/Maria-Eduarda-vieira/Semaforo_inteligente/blob/main/Sprint%202/VideosemaforoTinkerCad.mp4
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-###  Desenvolvimento do Código
+###  Desenvolvimento do Código(C++)
 
 Antes do desenvolvimento do código, o grupo realizou a produção do fluxograma no software **Flowgorithm**. Depois disso, programamos o código na linguagem C++
 no Tinkercad para finalizar no software Arduino IDE.
 
 Segue abaixo o código do projeto:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+
+```cpp
 // Linguagem C++ code
-//Projeto: Sémaforo inteligente que detecta ambulâncias em emergencia
-// e prioriza a passagem
-//Autores: Grupo 4
-//Ana Júlia, Gustavo Schimming, Maria Eduarda Vieira,
-//Maria Eduarda Vilela, Victor Hugo.
-//Arduino Uno e sensor de presença ultrassonico HC-SR04
+// Projeto: Semáforo inteligente que detecta ambulâncias em emergência e prioriza a passagem
+// Autores: Grupo 4 (Ana Júlia, Gustavo Schimming, Maria Eduarda Vieira, Maria Eduarda Vilela, Victor Hugo)
+// Hardware: Arduino Uno e sensor de presença ultrassônico HC-SR04
 
-/////////////////////////////////////////////////////////////////
-
-// Declaração e armazenamento de valores que não vão ser alterados
-//Indica a porta em que estão inseridos os sinais dos semáforos
-
+// Definição das portas dos semáforos
 #define sinalVermelho1 10 
 #define sinalAmarelo1 9
 #define sinalVerde1 8
@@ -167,103 +163,71 @@ Segue abaixo o código do projeto:
 #define sinalAmarelo2 6
 #define sinalVerde2 5
 
-//Indica a porta em que está inserido o iniciador da medição 
+// Definição das portas do sensor ultrassônico
 #define trigPin 13
-
-// Indica a porta em que está inserido o receptor do retorno da onda sonora
 #define echoPin 12
 
-long duracao;// Armazena o tempo que o som levou para ir e voltar
-float distancia;// Armazena a distãncia calculadas em centímetros
+long duracao;      // Armazena o tempo que o som levou para ir e voltar
+float distancia;   // Armazena a distância calculada em centímetros
 
-
-//Funcionalidade do sensor de presença ultrassonico
-
+// Função para calcular a distância medida pelo sensor ultrassônico
 float medirDistancia() {
-  // Para garantir que o trig inicie desligado
-  
   digitalWrite(trigPin, LOW);
-  // espera 2 microsegundos
   delayMicroseconds(2);
   
-  //Envia pulso HIGH pro trig
-  //Emite uma onda sonora
   digitalWrite(trigPin, HIGH);
-  // espera 10 microsegundos
   delayMicroseconds(10);
-  
-  // Finaliza a emissão
   digitalWrite(trigPin, LOW);
   
-  
-  //Após isso, é feito a leitura da emissão
-  //o pulseIn mede quanto tempo o echoPin ficou acesso.
-  
-  // a fórmula converte o tempo medido em cm
-  //é necessário dividir a duração por dois pois o som vai até o objeto e volta
-  //A velocidade do som é aprox 340m/s,convertendo pra cm/µs
-  //1 segundo=1.000.000 microssegundos
-  //340 m/s=34.000cm/s
-  //34.000 cm/s/1.000.000 µs/s=0,034 cm/µs
-   
   duracao = pulseIn(echoPin, HIGH);
-
-return duracao * 0.034 / 2;
+  
+  // Converte o tempo do pulso em distância (cm)
+  return duracao * 0.034 / 2;
 }
 
+// Funções de gerenciamento dos estados dos semáforos
+void semaforo1Verde() {
+  digitalWrite(sinalVerde1, HIGH);
+  digitalWrite(sinalAmarelo1, LOW);
+  digitalWrite(sinalVermelho1, LOW);
 
-
-// Funções void criadas para organizar o estados dos semáforos
-//Funções void fazem uma função
-
-void semaforo1Verde() { //Função do sinal verde  1via
-
-  digitalWrite(sinalVerde1, HIGH);//Verde 1 acesso
-  digitalWrite(sinalAmarelo1, LOW);//Amarelo1 desligado
-  digitalWrite(sinalVermelho1, LOW);//Vermelho 1 desligado
-
-  digitalWrite(sinalVerde2, LOW);//Verde 2 desligado
-  digitalWrite(sinalAmarelo2, LOW);//Amarelo2 desligado
-  digitalWrite(sinalVermelho2, HIGH);//vermelho 2 ligado
+  digitalWrite(sinalVerde2, LOW);
+  digitalWrite(sinalAmarelo2, LOW);
+  digitalWrite(sinalVermelho2, HIGH);
 }
 
-void semaforo1Amarelo() {// Função do sinal amarelo 1 via
+void semaforo1Amarelo() {
+  digitalWrite(sinalVerde1, LOW);
+  digitalWrite(sinalAmarelo1, HIGH);
+  digitalWrite(sinalVermelho1, LOW);
 
-  digitalWrite(sinalVerde1, LOW);//Verde 1 desligado
-  digitalWrite(sinalAmarelo1, HIGH);//Amarelo 1 ligado
-  digitalWrite(sinalVermelho1, LOW);//Vermelho 1 desligado
-
-  digitalWrite(sinalVerde2, LOW);//Verde 2 desligado
-  digitalWrite(sinalAmarelo2, LOW);//Amarelo2 desligado
-  digitalWrite(sinalVermelho2, HIGH);//Vermelho2 acesso
+  digitalWrite(sinalVerde2, LOW);
+  digitalWrite(sinalAmarelo2, LOW);
+  digitalWrite(sinalVermelho2, HIGH);
 }
 
-void semaforo2Verde() {//Função do sinal verde 2 via
+void semaforo2Verde() {
+  digitalWrite(sinalVerde2, HIGH);
+  digitalWrite(sinalAmarelo2, LOW);
+  digitalWrite(sinalVermelho2, LOW);
 
-  digitalWrite(sinalVerde2, HIGH);//verde 2 acesso
-  digitalWrite(sinalAmarelo2, LOW);//amarelo 2 desligado
-  digitalWrite(sinalVermelho2, LOW);//vermelho 2 desligado
-
-  digitalWrite(sinalVerde1, LOW);//verde 1 desligado
-  digitalWrite(sinalAmarelo1, LOW);//amarelo1 desligado
-  digitalWrite(sinalVermelho1, HIGH);//vermelho 1 acesso
+  digitalWrite(sinalVerde1, LOW);
+  digitalWrite(sinalAmarelo1, LOW);
+  digitalWrite(sinalVermelho1, HIGH);
 }
 
-void semaforo2Amarelo() { //Função do sinal amarelo 2 via
+void semaforo2Amarelo() {
+  digitalWrite(sinalVerde2, LOW);
+  digitalWrite(sinalAmarelo2, HIGH);
+  digitalWrite(sinalVermelho2, LOW);
 
-  digitalWrite(sinalVerde2, LOW);//verde 2 desligado
-  digitalWrite(sinalAmarelo2, HIGH);//amarelo2 acesso
-  digitalWrite(sinalVermelho2, LOW);//vermelho 2 desligado
-
-  digitalWrite(sinalVerde1, LOW);//verde 1 desligado
-  digitalWrite(sinalAmarelo1, LOW);//amarelo1 desligado
-  digitalWrite(sinalVermelho1, HIGH);//vermelho 1 acesso
+  digitalWrite(sinalVerde1, LOW);
+  digitalWrite(sinalAmarelo1, LOW);
+  digitalWrite(sinalVermelho1, HIGH);
 }
 
-//Função setup obrigatória para configurar os pinos e comunicação serial
-//Inicialização
 void setup() {
-  //Configura os pinos leds como SAÍDA
+  // Configuração dos pinos como Saídas e Entradas
   pinMode(sinalVermelho1, OUTPUT);
   pinMode(sinalAmarelo1, OUTPUT);
   pinMode(sinalVerde1, OUTPUT);
@@ -271,63 +235,39 @@ void setup() {
   pinMode(sinalVermelho2, OUTPUT);
   pinMode(sinalAmarelo2, OUTPUT);
   pinMode(sinalVerde2, OUTPUT);
-  //Configura o pino trig do ultrassÔnico como SAÍDA
+  
   pinMode(trigPin, OUTPUT);
-  //Configuts o pino echo do ultrassônico como ENTRADA
   pinMode(echoPin, INPUT);
   
-  //Inicia a comunicação serial com velocidade de 9600 bps
   Serial.begin(9600);
 }
 
-//Função que funciona infinitamente enquanto o arduíno estiver ligado
 void loop() {
-
-  //Essa parte verifica se foi detectado a presença de uma
-  //ambulância em emergencia
-  //Define a distância igual ao resultado da fórmula de duração
+  // Verifica constantemente se há uma ambulância a menos de 30cm do sensor
   distancia = medirDistancia();
 
-   //Se a distância for menor do que 30
-  
-   if (distancia < 30) {
-    // Então a função apresentada no void semaforol1Verde será
-    //executada
+  if (distancia < 30) {
     semaforo1Verde();
-    
     delay(4000);
-    //O comando retorno interrompe o ciclo atual da função
-    // e faz com que o arduino volte a primeira linha do void loop
-    //impedindo que continue executando as linhas de baixo
-    return;
+    return; // Interrompe a sequência normal e reinicia o loop
   }
 
-  //Funcionamento dos semáforos normalmente
-  
+  // Ciclo normal de funcionamento dos semáforos
   semaforo1Verde();
-  delay(4000); //Espera 4 segundos
+  delay(4000); 
   
-  //Mas se a distância for menor do que 30, o sinal verde1 abre
   distancia = medirDistancia();
-  if (distancia < 30) return;//Interrompe o ciclo
-  
+  if (distancia < 30) return;
   
   semaforo1Amarelo();
-  delay(3000);//Espera 1 segundo
-  
-  //Se a distância da ambulância for menor que 30,o sinal verde1 abre
+  delay(3000);
   
   distancia = medirDistancia();
-  if (distancia < 30) return; // Interrope o ciclo
-
-  //Se a distância da ambulância for menor que 30,o sinal verde1 abre
+  if (distancia < 30) return; 
   
   semaforo2Verde();
-  delay(6000);//Espera 6 segundos
+  delay(6000);
   
-  //Se a distância da ambulância for menor que 30,o sinal verde1 abre
-  
-
   distancia = medirDistancia();
   if (distancia < 30) return;
   
@@ -335,10 +275,9 @@ void loop() {
   delay(1000);
 }
 
-
 ------------------------------------------------------------------------------------------------------------------------------------
 
-# Softwares Utilizados
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=0040FF&width=450&height=60&lines=Softwares+Utilizados)](https://git.io/typing-svg)
 A partir do desenvolvimento do projeto, foi possível analisar todos os componentes não físicos de software que foram utilizados para o resultado final.
 
 | Software        | Utilização            |
@@ -349,6 +288,18 @@ A partir do desenvolvimento do projeto, foi possível analisar todos os componen
 | GitHub          | Repositório           |
 | Microsoft Excel | Cronograma e 5W2H     |
 | Microsoft Word  | Documentação
+
+# Tecnologias Utilizadas
+
+| Tecnologia  | Finalidade          |
+| ----------- | ------------------- |
+| Arduino UNO | Controle do sistema |
+| C++         | Programação         |
+| Arduino IDE | Desenvolvimento     |
+| Tinkercad   | Simulação           |
+| GitHub      | Versionamento       |
+| SCRUM       | Gestão do projeto   |
+| 5W2H        | Planejamento        |
 
 
 ### 🏗️ Construção da Maquete
