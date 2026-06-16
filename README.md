@@ -71,11 +71,11 @@ Função | Integrante |
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#  <h3>
-  <span style="font-family: 'Arial Black', sans-serif; color: #0040FF;">
-    Sprint 1 - Planejamento e Resultados
+<h1 align="center">
+  <span style="font-family: 'Arial Black', sans-serif; font-size: 3em; color: #0040FF; font-weight: 900; display: block; border-bottom: 8px solid #0040FF; padding-bottom: 10px;">
+    SPRINT 1 - PLANEJAMENTO E PESQUISA
   </span>
-</h3>
+</h1>
 
 ## Objetivos da Sprint
 
@@ -112,7 +112,7 @@ Durante a Sprint 1 foram produzidos:
 
 ---
 
-# 🚀 Sprint 2 - Desenvolvimento e Implementação
+# Sprint 2 - Desenvolvimento e Implementação
 
 Após as análises realizadas na Sprint 1, o projeto passou por melhorias.
 
